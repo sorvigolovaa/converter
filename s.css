@@ -1,0 +1,25 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  line-height: 3rem;
+  flex-direction: column;
+  background-color: rgb(217, 229, 236);
+}
+
+
+button
+{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+#result
+{
+  background-color: #fff;
+  padding: 5px;
+  text-align: center;
+  height: 50px;
+  border: 1px solid gray;
+}

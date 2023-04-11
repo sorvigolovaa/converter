@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Конвертер валют</title>
+  <link rel="stylesheet" href="./s.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<h1>Конвертер валют</h1>
+	<label>Введите сумму:</label>
+	<input type="number" id="amount" min="0">
+	<label>Выберите валюту для конвертации:</label>
+	<select id="from">
+		<option value="USD">Доллар США (USD)</option>
+		<option value="EUR">Евро (EUR)</option>
+		<option value="GBP">Фунт стерлингов (GBP)</option>
+		<option value="UZS">Узбекский сум</option>
+		<option value="RUB">российский рубль</option>
+	</select>
+	<label>Выберите валюту для получения:</label>
+	<select id="to">
+		<option value="USD">Доллар США (USD)</option>
+		<option value="EUR">Евро (EUR)</option>
+		<option value="GBP">Фунт стерлингов (GBP)</option>
+		<option value="UZS">Узбекский сум</option>
+		<option value="RUB">российский рубль</option>
+	</select>
+	<button onclick="convert()">Конвертировать</button>
+	<div id="result">
+		
+	</div>
+	<script src="convert.js"></script>
+</body>
+</html>
